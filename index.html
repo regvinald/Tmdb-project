@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flixstream</title>
+    <link rel="stylesheet" href="tmdb.css">
+</head>
+<body>
+    <header class="topbar">
+        <h1>Flixstream</h1>
+
+        <div class="topItems">
+            <h2>Movies</h2>
+            <h2>Tv shows</h2>
+            <h2>Trending</h2>
+            <h2>Awards</h2>
+        </div>
+
+        <div class="search">
+            <input type="search" id="search" placeholder="search">
+        </div>
+        <div class="login">
+            <button id="login">Login</button>
+        </div>
+        </header>
+
+
+    <section class="hero">
+    <div class="hero-content">
+      <h1>Featured Movie Title</h1>
+      <p>Watch the latest trending movies and TV shows now.</p>
+      <button class="btn-play">Play Now</button>
+    </div>
+  </section>
+
+  
+  <main class="content-container">
+    <h2>Trending Movies</h2>
+    <div id="movie-grid" class="movie-grid">
+      <p class="loading">Loading movies</p>
+    </div>
+  </main>
+
+        
+  <script src="./tmdb.js"></script>
+</body>
+</html>
+
+<!-- use box shadow and scale for the read more -->
